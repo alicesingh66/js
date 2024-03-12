@@ -1,0 +1,5 @@
+//Operators
+//>,<,<=,>=,==, !=, ===
+// == -> only values compared, not datatypes
+// === -> values and data types, both are compared
+// !== <- strict checking
