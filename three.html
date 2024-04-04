@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChaiANDcode</title>
+  </head>
+  <body style="background-color: black; color: grey"></body>
+  <script>
+    const inside_div_element = document.createElement("div"); //can make, h1,h1....so on
+    console.log(inside_div_element);
+    inside_div_element.className = "main";
+    inside_div_element.id = Math.random() * 10 + 1;
+    inside_div_element.setAttribute("title", "genx");
+    inside_div_element.style.color = "grey";
+    //div.innerText can give data BUT it overwrites.
+
+    const addText = document.createTextNode("Alice & JS");
+    inside_div_element.appendChild(addText); //Debated topic
+
+    document.body.appendChild(inside_div_element);
+  </script>
+</html>
